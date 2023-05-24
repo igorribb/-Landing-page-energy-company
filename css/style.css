@@ -1,0 +1,393 @@
+:root {
+    --withe: #ffffff;
+    --blue-dark: #08203a;
+    --blue2: #0160d4;
+    --laranja1: #f48533;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    padding: 0.5rem;
+    background-color: var(--blue-dark);
+    color: var(--withe);
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+
+.numeros {
+    display: flex;
+    gap: 1.5rem;
+}
+
+i {
+    margin-right: 0.6rem;
+}
+
+
+
+.background-color1 {
+    color: var(--withe);
+    background-image: url(../engenheiro-sorridente-usando-equipamento-de-tiro-medio.jpg);
+    background-size: 1200px;
+    background-repeat:no-repeat;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 15px;
+}
+
+.sextion-video h2, .section-informacao h1{
+    color: var(--blue2);
+    font-size: 26px;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+}
+
+label {
+    color: var(--withe);
+}
+
+input {
+    padding: .6rem;
+    font-size: .9rem;
+    border-radius: 6px;
+    border: 1px solid black;
+    cursor: pointer;
+
+
+}
+
+.input-1 {
+    width: 100%;
+
+}
+
+.field {
+    color: black;
+    width: 30%;
+}
+
+
+.section-informacao {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #f0f0f0;
+    background-color: rgba(240, 240, 240, 0.5);
+    padding: 5rem;
+    align-items: center;
+    gap: 3rem;
+    text-align: justify right;
+}
+
+.informaca-sec {
+    max-width: 500px;
+}
+
+
+.sextion-video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    padding: 5rem;
+
+}
+
+.section-f {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--blue2);
+    padding: 3rem 10rem;
+    gap: 2rem;
+    color: var(--withe);
+    flex-wrap: wrap;
+
+}
+
+.projetos-section-projeto {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+
+}
+.number-projetos{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.centralizacao-icon {
+    font-size: 4rem;
+    padding: 30px;
+}
+
+.projetos-section-projeto span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+
+
+}
+
+.section-modalidade {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5rem;
+    gap: 3rem;
+
+}
+
+.cartoes {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 3rem;
+    color: var(--withe);
+    gap: 2rem;
+}
+
+.cartao {
+    background-color: #2f3234;
+    width: 230px;
+    align-items: center;
+    transition: 0.2s ease-in-out;
+    padding-bottom: 5rem;
+    gap: 2rem;
+
+}
+
+.p-laranja {
+    color: var(--laranja1);
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px;
+}
+
+.p-cartao {
+    padding: 12px;
+    text-align: justify left;
+}
+
+.section-quem-somos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    background-color: rgba(240, 240, 240, 0.5);
+    padding: 5rem;
+}
+
+.conteiner-quem-somos {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 500px;
+
+    ;
+}
+
+.section-entregues {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    gap: 2rem;
+}
+
+.conteiner-entregues {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.3rem;
+    max-width: auto;
+    min-height: 380px;
+
+}
+
+.section-comentarios {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    background-color: var(--blue2);
+    min-height: 380px;
+   
+}
+.conteiner-comentarios{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 700px;
+}
+.imagem-cp{
+    border-radius: 100%;
+    align-items: center;
+}
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    gap: 3em;
+    background-color: #2f3234;
+    color: var(--withe);
+}
+.contatos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 20px;
+    gap: 0.6rem;
+
+}
+.fa-instagram, .fa-facebook, .fa-youtube, .fa-whatsapp {
+    background-color: var(--withe);
+    padding: 10px;
+    border-radius: 100%;
+    margin-top: 20px;
+}
+
+
+.redes-sociais, .text-contatos{
+    color: var(--withe);
+    font-size: 20px;
+    
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:500px) {
+    .sextion-video {
+        display: none;
+    }
+
+    .section-f {
+        padding: 0.5em 5em;
+        justify-content: center;
+    }
+
+    .projetos-section-projeto {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-economia {
+        display: none;
+    }
+
+    .section-quem-somos {
+        padding: 2em;
+    }
+
+    .text-project {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .button-link {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .background-color1 {
+        justify-content: center;
+        align-items: center;
+        background-image: none;
+        background-color: black;
+    }
+
+    .input-1 {}
+
+    .field {
+        width: 100%;
+    }
+
+    .texto-form {
+        text-align: start;
+        padding: 2em;
+    }
+
+    .field button {
+        width: 70%;
+    }
+
+    .section-quem-somos {
+        display: none;
+    }
+
+    .section-entregues{
+        display: none;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .background-color1{
+        background-color: var(--blue2);
+    }
+    .section-entregues{
+        display: none;
+    }
+    .section-economia{
+        display: none;
+    }
+    .section-comentarios{
+        padding: 1rem;
+    }
+    .projetos-section-projeto{
+        justify-content: center;
+    }
+    .button-link{
+        width: 100%;
+    }
+    .rodape{
+        gap: 2rem;
+    }
+    .numeros{
+        display: block;
+    }
+    .text-mod{
+        text-align: center;
+        
+    }
+    .text-mod h2{
+        padding: 20px;
+    }
+}

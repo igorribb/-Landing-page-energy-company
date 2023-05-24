@@ -1,0 +1,55 @@
+button {
+    padding: .6rem;
+    font-size: .9rem;
+    border-radius: 6px;
+    background-color: var(--laranja1);
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: .4s;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.botao-nav {
+    border: none;
+    color: var(--withe);
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 12px;
+    padding: 12px;
+
+}
+
+.botao-nav:hover,
+.button-field:hover {
+    background-color: #f59e5f;
+}
+
+.button-field {
+    border: solid 1px black;
+    color: white;
+}
+
+.button-link {
+    padding: 1rem;
+    font-size: .9rem;
+    border-radius: 6px;
+    width: 30%;
+    text-align: center;
+    color: var(--withe);
+    border: solid 1px var(--withe);
+    text-decoration: none;
+    transition: .4s;
+}
+
+.button-link:hover {
+    background-color: var(--withe);
+    color: var(--blue2);
+}
+
+@media screen and (max-width:800px) {
+    .button-link{
+        width: 100%;
+    }
+}
